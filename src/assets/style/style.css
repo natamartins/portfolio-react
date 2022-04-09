@@ -187,14 +187,14 @@ html {
   }
 
   .box-sectio01 h1::before {
-  display: none;
+    display: none;
   }
 
   .box-sectio02 img {
     width: 200px;
   }
   .box-sectio01 p::after {
-    right:-10px;
+    right: -10px;
   }
   .box-sectio01 p {
     justify-content: center;
@@ -324,11 +324,11 @@ html {
   }
 
   .mySkils h1::before {
-  left: auto;
- margin-left: -70px;
+    left: auto;
+    margin-left: -70px;
   }
   .mySkils {
-    margin-left:0;
+    margin-left: 0;
   }
 }
 /* ********** Project *********** */
@@ -470,7 +470,6 @@ html {
     width: 200px;
     box-shadow: 0px 0px 8px #888;
   }
-  
 }
 /* ********* MyProject-container *********** */
 .myproject-backgroun {
