@@ -1,11 +1,11 @@
 import React from "react";
 
-import Home from "./components/home";
-import Main from "./components/hero";
+import Home from "./components/Home";
+import Main from "./components/Hero";
 import Bio from "./components/Bio";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Project from "./components/project";
+import Project from "./components/Project";
 import Footer from "./components/Footer";
 import MyProject from "./components/MyProject";
 

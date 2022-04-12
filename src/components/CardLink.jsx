@@ -1,22 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 
 import "../assets/style/style.css";
 
-class Cardlink extends Component {
-  render() {
-    return (
-      <>
-        <a
-          href={this.props.linkPag}
-          target="_blank"
-          className="linkPags"
-          rel="noreferrer"
-        >
-          {this.props.text}
-        </a>
-      </>
-    );
-  }
+const Cardlink = (props) => {
+
+  return (
+    <>
+      <a
+        href={props.linkPag}
+        target="_blank"
+        className="linkPags"
+        rel="noreferrer"
+      >
+        {props.text}
+      </a>
+    </>
+  );
 }
 
 export default Cardlink;
