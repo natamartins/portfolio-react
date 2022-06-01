@@ -552,3 +552,18 @@ html {
 }
 @media (ma-width: 1000px) {
 }
+
+.butao-fixos {
+  padding: 5px;
+  background:none;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 90px;
+  left: 40px;
+  cursor: pointer;
+ border: none;
+}
+
+.imgDarck {
+  width: 70px;
+}
