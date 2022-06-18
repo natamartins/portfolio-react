@@ -14,7 +14,7 @@ const Main = () => {
           <section className="box-sectio01">
             <div className="box-sectio01-div">
               <h1>
-                Desenvolvedor Frontend
+                <span>Desenvolvedor Frontend</span>
                 <span className="style-h1-main">UI/UX Designer</span>
               </h1>
             </div>

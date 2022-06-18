@@ -29,7 +29,7 @@ export default function Slider() {
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
-          stretch: 0,
+          stretch: 0, 
           depth: 100,
           modifier: 1,
           slideShadows: true,
@@ -40,6 +40,7 @@ export default function Slider() {
       >
         <SwiperSlide>
           <Card
+          text='WEB NFT'
             img={Img01}
             link01={"https://natamartins.github.io/webNFT/"}
             link02={"https://github.com/natamartins/webNFT"}
@@ -48,14 +49,16 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <Card
+          text='Flex Blog'
             img={Img02}
-            link01={"https://natamartins.github.io/FlexBlog/#"}
+            link01={"https://natamartins.github.io/FlexBlog/"}
             link02={"https://github.com/natamartins/FlexBlog"}
             conteudo="Projeto desenvolvido atravez do curso para desenvolver minhas habilidades com código "
           />
         </SwiperSlide>
         <SwiperSlide>
           <Card
+           text='Web Carros'
             img={Img03}
             link01={"https://natamartins.github.io/Carros/"}
             link02={"https://github.com/natamartins/Carros"}
@@ -64,6 +67,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <Card
+          text='BikCraft'
             img={Img04}
             link01={"https://natamartins.github.io/bikcraft-projetofinal/"}
             link02={"https://github.com/natamartins/bikcraft-projetofinal"}

@@ -120,12 +120,12 @@ html {
   justify-content: space-between;
   margin: var(--Margin-Container);
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   padding: 20px;
 }
 
 .box-sectio02 img {
-  width: 300px;
+  width: 200px;
   border-radius: 100%;
 }
 
@@ -141,15 +141,6 @@ html {
 .box-sectio01-div {
   width: 400px;
 }
-
-.box-sectio01 h1::before {
-  content: url(../img/Group\ 2.svg);
-  position: absolute;
-  top: -17px;
-  left: -20px;
-  z-index: -1;
-}
-
 .box-sectio01 p {
   display: flex;
   align-items: center;
@@ -165,7 +156,7 @@ html {
   height: 10px;
   background-color: forestgreen;
   border-radius: 100%;
-  right: 150px;
+  right: 210px;
 }
 
 .style-h1-main {
@@ -214,6 +205,10 @@ html {
   border-radius: 10px;
   margin-bottom: 30px;
   font-family: var(--font-family);
+}
+
+.container-section h1 {
+  margin-bottom:10px;
 }
 
 @media (max-width: 1000px) {

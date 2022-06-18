@@ -6,9 +6,10 @@ const Section = (props) => {
     <>
       <section>
         <div className="container-section background">
+          <h1>Quem sou ?</h1>
           <p className="text">
-            Olá, sou o Natã... Há poucos meses embarquei nessa incrível jornada
-            da programação. Tenho estudado bastante HTML, CSS e Javascript...
+            Olá, sou o Natã. Embarquei nessa incrível jornada
+            da programação. Tenho estudado bastante HTML, CSS,Javascript, React...
           </p>
           <p className="text">
             Versionando meus códigos usando GIT e compartilhando alguns
